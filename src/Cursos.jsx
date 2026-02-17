@@ -10,7 +10,6 @@ import awsEconomics from './images/aws-partner-cloud-economics-accreditation.e02
 import googleBadge1 from './images/2meoeAeFaFRp5SS3rOx+rkHovx+_YhhByzW4OIhF5L4=.eaa76e659a771e4f47bf.png';
 import googleBadge2 from './images/jQMzEedff_eMkW9ts7f6qRjlR8gu4gLQAzyNMXCDRyg=.be0bb9ce89ec55af385f.png';
 import googleBadge3 from './images/KJbv0GOIxc4Ze8p7LH1Ke4TeOMBGPqAus29iGiFw5po=.465b97041e6cb75f6762.png';
-import googleBadge4 from './images/teuTnmFi96VycJaZff9bmOfUQMz1tgPiTtsCH2iBBY8=.b9355ba6c0dc1665798c.png';
 
 function Cursos(){
     const { t } = useTranslation();
@@ -58,6 +57,9 @@ function Cursos(){
                     </a>
                     <a href="https://www.skills.google/public_profiles/c51c2d23-b0ea-472f-85a6-127cad884d95/badges/9599977" target="_blank" rel="noopener noreferrer">
                         <img src={googleBadge2} alt="Google Badge 2" style={{width: '150px', height: 'auto'}} />
+                    </a>
+                    <a href="https://www.skills.google/public_profiles/c51c2d23-b0ea-472f-85a6-127cad884d95/badges/9437985" target="_blank" rel="noopener noreferrer">
+                        <img src={googleBadge3} alt="Google Badge 3" style={{width: '150px', height: 'auto'}} />
                     </a>
                 </div>
             </div>
