@@ -19,8 +19,8 @@ function Cursos(){
 
             <h2>{t('certificateTitle')}</h2>
             <div className="course-entry">
-                <h4>Scrum Master</h4>
-                <p><strong>Certiprof</strong></p>
+                <h4>{t('scrumMaster')}</h4>
+                <p><strong>{t('certiprof')}</strong></p>
                 <p>{t('cursosScrum')}</p>
 
             </div>
@@ -30,7 +30,7 @@ function Cursos(){
             <h2>{t('courseTitle')}</h2>
             <div className="course-entry">
                 <h4>{t('courseDescription')}</h4>
-                <p><strong>Capacitaciones Virtuales</strong></p>
+                <p><strong>{t('virtualTraining')}</strong></p>
                 <p>{t('course2Description')}</p>
                 <p><strong>https://platzi.com/p/johnfredyquimbayaorozco/</strong></p>
 
@@ -53,16 +53,16 @@ function Cursos(){
                     <a href="https://www.credly.com/badges/a7814bd9-f8cc-4e55-a9cd-7e0e418c72bf/public_url" target="_blank" rel="noopener noreferrer">
                         <img src={awsEconomics} alt="AWS Economics Badge" style={{width: '150px', height: 'auto'}} />
                     </a>
-                    <a href="https://www.skills.google/public_profiles/c51c2d23-b0ea-472f-85a6-127cad884d95/badges/9600356"target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.skills.google/public_profiles/c51c2d23-b0ea-472f-85a6-127cad884d95/badges/9600356" target="_blank" rel="noopener noreferrer">
                         <img src={googleBadge1} alt="Google Badge 1" style={{width: '150px', height: 'auto'}} />
                     </a>
-                    <a href="https://www.skills.google/public_profiles/c51c2d23-b0ea-472f-85a6-127cad884d95/badges/9599977"target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.skills.google/public_profiles/c51c2d23-b0ea-472f-85a6-127cad884d95/badges/9599977" target="_blank" rel="noopener noreferrer">
                         <img src={googleBadge2} alt="Google Badge 2" style={{width: '150px', height: 'auto'}} />
                     </a>
-                    <a href="https://www.skills.google/public_profiles/c51c2d23-b0ea-472f-85a6-127cad884d95/badges/9437985"target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.skills.google/public_profiles/c51c2d23-b0ea-472f-85a6-127cad884d95/badges/9437985" target="_blank" rel="noopener noreferrer">
                     <img src={googleBadge3} alt="Google Badge 3" style={{width: '150px', height: 'auto'}} />
                     </a>
-                    <a href="https://www.skills.google/public_profiles/c51c2d23-b0ea-472f-85a6-127cad884d95/badges/9422440"target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.skills.google/public_profiles/c51c2d23-b0ea-472f-85a6-127cad884d95/badges/9422440" target="_blank" rel="noopener noreferrer">
                     <img src={googleBadge4} alt="Google Badge 4" style={{width: '150px', height: 'auto'}} />
                     </a>
                 </div>
@@ -70,19 +70,19 @@ function Cursos(){
 
             <h2>{t('courseInformationSocial')}</h2>
             <div className="course-entry">
-                <h4>Linkedin</h4>
+                <h4>{t('linkedin')}</h4>
                 <p><strong>https://www.linkedin.com/in/jfqo/</strong></p>
             </div>
 
             <div className="course-entry">
-                <h4>Twitter</h4>
+                <h4>{t('twitter')}</h4>
                 <p><strong>@soulreavers214</strong></p>
             </div>
 
             <div className="course-entry">
                 <h2>{t('courseInformationContac')}</h2>
-                <h4>Email: 94041671@u.icesi.edu.co</h4>
-                <p><strong>Telefono: +573004756201</strong></p>
+                <h4>{t('email')}: 94041671@u.icesi.edu.co</h4>
+                <p><strong>{t('phone')}: +573004756201</strong></p>
             </div>
 
 

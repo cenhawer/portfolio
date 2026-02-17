@@ -8,10 +8,10 @@ function CajaMoreliaExperience(){
 
     return(
         <div id={"cajaMoreliaExperience"}>
-            <button onClick={() => navigate('/')} className="language-btn" style={{marginBottom: '20px'}}>← Volver</button>
+            <button onClick={() => navigate('/')} className="language-btn" style={{marginBottom: '20px'}}>{t('back')}</button>
             <h1>Koralat</h1>
             <p><strong>{t('cajaMoreliaExperienceTitle')}</strong></p>
-            <p>{t('cajaMoreliaExperienceDescription')}</p>
+            <p style={{whiteSpace: 'pre-line'}}>{t('cajaMoreliaExperienceDescription')}</p>
         </div>
     );
 }

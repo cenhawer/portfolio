@@ -8,7 +8,7 @@ function CoomevaExperience(){
 
     return(
         <div id={"coomevaExperience"}>
-            <button onClick={() => navigate('/')} className="language-btn" style={{marginBottom: '20px'}}>← Volver</button>
+            <button onClick={() => navigate('/')} className="language-btn" style={{marginBottom: '20px'}}>{t('back')}</button>
             <h1>Coomeva Medicina Prepagada</h1>
             <p><strong>{t('coomevaExperienceTitle')}</strong></p>
             <p>{t('coomevaExperienceDescription')}</p>

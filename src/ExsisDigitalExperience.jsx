@@ -8,7 +8,7 @@ function ExsisDigitalExperience() {
 
     return (
         <div id="exsisDigitalExperience">
-            <button onClick={() => navigate('/')} className="language-btn" style={{marginBottom: '20px'}}>← Volver</button>
+            <button onClick={() => navigate('/')} className="language-btn" style={{marginBottom: '20px'}}>{t('back')}</button>
             <h1>Exsis Digital</h1>
             <p><strong>{t('exsisExperienceTitle')}</strong></p>
             <p>{t('exsisExperienceDescription')}</p>

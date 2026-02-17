@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import ReactDOM from 'react-dom';// Aquí está el cambio
+import ReactDOM from 'react-dom/client';
 import './CSS/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';

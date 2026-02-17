@@ -8,7 +8,7 @@ function TaylorandJohnson(){
 
     return(
         <div id={"taylorandJohnson"}>
-            <button onClick={() => navigate('/')} className="language-btn" style={{marginBottom: '20px'}}>← Volver</button>
+            <button onClick={() => navigate('/')} className="language-btn" style={{marginBottom: '20px'}}>{t('back')}</button>
             <h1>Johnson and Taylor</h1>
             <p><strong>{t('taylorandJohnsonExperienceTitle')}</strong></p>
             <p>{t('taylorandJohnsonExperienceDescription')} </p>

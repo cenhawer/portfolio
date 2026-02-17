@@ -10,7 +10,8 @@ import CoomevaExperience from "./CoomevaExperience";
 import CinteExperience from "./CinteExperience";
 import NovatecExperience from "./NovatecExperience";
 import TaylorandJohnson from "./TaylorandJohnson";
-import FreelanceExperience from "./FrelanceExperience";
+import FreelanceExperience from "./FreelanceExperience";
+import SetiExperience from "./SetiExperience";
 import { useTranslation } from 'react-i18next';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -46,6 +47,7 @@ function App() {
                             <Cursos />
                         </>
                     } />
+                    <Route path="/seti-experience" element={<SetiExperience />} />
                     <Route path="/caja-morelia-experience" element={<CajaMoreliaExperience />} />
                     <Route path="/exsis-digital-experience" element={<ExsisDigitalExperience />} />
                     <Route path="/coomeva-medicina-prepagada" element={<CoomevaExperience />} />

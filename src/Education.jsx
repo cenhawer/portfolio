@@ -6,7 +6,7 @@ function Education() {
     const { t } = useTranslation();
     return (
         <div className="education-section">
-            <h2>{t('')}</h2>
+            <h2>{t('educationTitle')}</h2>
             <div className="education-columns">
                 <div className="education-column">
                     <div className="education-entry">

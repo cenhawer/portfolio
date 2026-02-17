@@ -8,7 +8,7 @@ function CinteExperience(){
 
     return(
         <div id={"cinteExperience"}>
-            <button onClick={() => navigate('/')} className="language-btn" style={{marginBottom: '20px'}}>← Volver</button>
+            <button onClick={() => navigate('/')} className="language-btn" style={{marginBottom: '20px'}}>{t('back')}</button>
             <h1>Cinte</h1>
             <p><strong>{t('cinteExperienceTitle')}</strong></p>
             <p>{t('cinteExperienceDescription')}   </p>
