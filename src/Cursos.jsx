@@ -32,7 +32,7 @@ function Cursos(){
                 <h4>{t('courseDescription')}</h4>
                 <p><strong>{t('virtualTraining')}</strong></p>
                 <p>{t('course2Description')}</p>
-                <p><strong>https://platzi.com/p/johnfredyquimbayaorozco/</strong></p>
+                <p><strong><a href="https://platzi.com/p/johnfredyquimbayaorozco/" target="_blank" rel="noopener noreferrer">https://platzi.com/p/johnfredyquimbayaorozco/</a></strong></p>
 
                 <div style={{display: 'flex', flexWrap: 'wrap', gap: '20px', marginTop: '20px', justifyContent: 'center'}}>
                     <a href="https://wallet.xertify.co/certificates/D8BBF075A001?r=1" target="_blank" rel="noopener noreferrer">
@@ -58,12 +58,6 @@ function Cursos(){
                     </a>
                     <a href="https://www.skills.google/public_profiles/c51c2d23-b0ea-472f-85a6-127cad884d95/badges/9599977" target="_blank" rel="noopener noreferrer">
                         <img src={googleBadge2} alt="Google Badge 2" style={{width: '150px', height: 'auto'}} />
-                    </a>
-                    <a href="https://www.skills.google/public_profiles/c51c2d23-b0ea-472f-85a6-127cad884d95/badges/9437985" target="_blank" rel="noopener noreferrer">
-                    <img src={googleBadge3} alt="Google Badge 3" style={{width: '150px', height: 'auto'}} />
-                    </a>
-                    <a href="https://www.skills.google/public_profiles/c51c2d23-b0ea-472f-85a6-127cad884d95/badges/9422440" target="_blank" rel="noopener noreferrer">
-                    <img src={googleBadge4} alt="Google Badge 4" style={{width: '150px', height: 'auto'}} />
                     </a>
                 </div>
             </div>
