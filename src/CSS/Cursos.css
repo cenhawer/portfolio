@@ -1,26 +1,75 @@
-.education-container {
-    margin: 20px 0;
-    background-color: #f7f9fc;
-    padding: 15px;
-    border-radius: 10px;
-}
-
-.education-entry, .course-entry {
+.contact-section {
     margin-bottom: 20px;
 }
 
-h3, h4 {
-    font-weight: bold;
-    margin-top: 0;
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
 }
-.education-container h2 {
-    color: #333;
-    border-bottom: 2px solid #333;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 16px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    text-align: center;
 }
-p {
-    margin: 5px 0;
-    font-size: 1em;
-    line-height: 1.5em;
+
+.contact-card:hover {
+    border-color: var(--accent-blue);
+    background: rgba(68, 147, 248, 0.06);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    text-decoration: none;
+}
+
+.contact-icon {
+    font-size: 1.4em;
+    color: var(--accent-blue);
+    line-height: 1;
+    font-weight: 600;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.contact-label {
+    font-size: 0.72em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+}
+
+.contact-value {
+    font-size: 0.8em;
+    color: var(--text-secondary);
+    word-break: break-all;
+    font-weight: 500;
+}
+
+.contact-card:hover .contact-value {
+    color: var(--accent-blue);
+}
+
+@media (max-width: 700px) {
+    .contact-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 400px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
 }

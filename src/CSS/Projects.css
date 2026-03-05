@@ -1,0 +1,78 @@
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.project-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 22px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.project-card--blue  { border-left: 3px solid #4493f8; }
+.project-card--amber { border-left: 3px solid #f0883e; }
+
+.project-card-header {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 14px;
+}
+
+.project-name {
+    font-size: 1.05em;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.project-sector {
+    font-size: 0.75em;
+    font-weight: 500;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.project-bullets {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.project-bullets li {
+    font-size: 0.875em;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    padding-left: 16px;
+    position: relative;
+}
+
+.project-bullets li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: var(--accent-blue);
+    font-size: 0.8em;
+    top: 2px;
+}
+
+.project-card--amber .project-bullets li::before {
+    color: var(--accent-amber);
+}
+
+@media (max-width: 600px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}

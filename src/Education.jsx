@@ -1,34 +1,32 @@
 import React from 'react';
 import './CSS/Education.css';
-import {useTranslation} from "react-i18next";
+import { useTranslation } from 'react-i18next';
 
 function Education() {
     const { t } = useTranslation();
     return (
-        <div className="education-section">
-            <h2>{t('educationTitle')}</h2>
-            <div className="education-columns">
-                <div className="education-column">
-                    <div className="education-entry">
-                        <h3>{t('education1Title')}</h3>
-                        <p><strong>{t('education1Date')}</strong></p>
-                    </div>
-
-                    <div className="education-entry">
-                        <h3>{t('education2Title')}</h3>
-                        <p><strong>{t('education2Date')}</strong></p>
+        <div className="section">
+            <h2 className="section-title">{t('educationTitle')}</h2>
+            <div className="edu-row">
+                <div className="edu-card">
+                    <div className="edu-icon">◎</div>
+                    <div className="edu-info">
+                        <span className="edu-degree">{t('edu1Degree')}</span>
+                        <span className="edu-institution">{t('edu1Institution')}</span>
+                        <span className="edu-date">{t('edu1Date')}</span>
                     </div>
                 </div>
-
-                <div className="education-column">
-                    <div className="education-entry">
-                        <h3>{t('education3Title')}</h3>
-                        <p><strong>{t('education3Date')}</strong></p>
-                    </div>
-
-                    <div className="education-entry">
-                        <h3>{t('education4Title')}</h3>
-                        <p><strong>{t('education4Date')}</strong></p>
+                <div className="lang-card">
+                    <h3 className="lang-title">{t('languagesTitle')}</h3>
+                    <div className="lang-list">
+                        <div className="lang-item">
+                            <span className="lang-name">{t('lang1')}</span>
+                            <span className="lang-level lang-level--native">{t('lang1Level')}</span>
+                        </div>
+                        <div className="lang-item">
+                            <span className="lang-name">{t('lang2')}</span>
+                            <span className="lang-level lang-level--intermediate">{t('lang2Level')}</span>
+                        </div>
                     </div>
                 </div>
             </div>

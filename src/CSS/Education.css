@@ -1,51 +1,107 @@
-.education-section {
-    font-family: 'Arial', sans-serif;
-    padding: 20px;
-    background-color: #f4f4f4;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.edu-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    align-items: start;
 }
 
-.education-section h2 {
-    color: #333;
-    border-bottom: 2px solid #333;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+.edu-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 22px;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
 }
 
-.education-section h3 {
-    color: #444;
-    margin-top: 10px;
+.edu-icon {
+    font-size: 1.4em;
+    color: var(--accent-blue);
+    flex-shrink: 0;
+    line-height: 1;
+    margin-top: 2px;
 }
 
-.education-section p {
-    color: #666;
-    line-height: 1.6;
+.edu-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
-.education-section strong, .education-section em {
-    color: #222;
+.edu-degree {
+    font-size: 1em;
+    font-weight: 700;
+    color: var(--text-primary);
 }
 
-.education-entry, .course-entry {
-    margin-bottom: 20px;
+.edu-institution {
+    font-size: 0.85em;
+    font-weight: 500;
+    color: var(--accent-blue);
 }
 
-.education-columns {
+.edu-date {
+    font-size: 0.8em;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.lang-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 22px;
+}
+
+.lang-title {
+    font-size: 0.78em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-secondary);
+    margin: 0 0 14px;
+}
+
+.lang-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lang-item {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.education-column {
-    width: 48%;  /* Dejar un pequeño espacio entre las dos columnas */
+.lang-name {
+    font-size: 0.9em;
+    font-weight: 500;
+    color: var(--text-primary);
 }
 
-@media (max-width: 768px) {
-    .education-columns {
-        flex-direction: column;
-    }
+.lang-level {
+    font-size: 0.75em;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
 
-    .education-column {
-        width: 100%;
+.lang-level--native {
+    color: var(--accent-green);
+    background: rgba(63, 185, 80, 0.12);
+    border: 1px solid rgba(63, 185, 80, 0.25);
+}
+
+.lang-level--intermediate {
+    color: var(--accent-blue);
+    background: rgba(68, 147, 248, 0.12);
+    border: 1px solid rgba(68, 147, 248, 0.25);
+}
+
+@media (max-width: 600px) {
+    .edu-row {
+        grid-template-columns: 1fr;
     }
 }
