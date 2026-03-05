@@ -35,30 +35,6 @@ function App() {
                             <h1>{t('nameProfile')}</h1>
                             <p className="hero-title">{t('titleProfile')}</p>
                             <p className="hero-location">📍 {t('location')}</p>
-                            <div className="hero-links">
-                                <a
-                                    className="hero-link"
-                                    href="https://linkedin.com/in/cenhawer"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    in LinkedIn
-                                </a>
-                                <a
-                                    className="hero-link"
-                                    href="https://github.com/cenhawer"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    ⌥ GitHub
-                                </a>
-                                <a
-                                    className="hero-link"
-                                    href="mailto:krlosoul0@gmail.com"
-                                >
-                                    ✉ krlosoul0@gmail.com
-                                </a>
-                            </div>
                         </header>
 
                         <div className="App">
