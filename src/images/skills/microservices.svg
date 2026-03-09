@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Central service -->
+  <circle cx="50" cy="50" r="10" fill="#3B82F6" stroke="#93C5FD" stroke-width="2"/>
+  <!-- Surrounding services -->
+  <circle cx="50" cy="15" r="8" fill="#1D4ED8" stroke="#93C5FD" stroke-width="1.5"/>
+  <circle cx="81" cy="33" r="8" fill="#1D4ED8" stroke="#93C5FD" stroke-width="1.5"/>
+  <circle cx="81" cy="67" r="8" fill="#1D4ED8" stroke="#93C5FD" stroke-width="1.5"/>
+  <circle cx="50" cy="85" r="8" fill="#1D4ED8" stroke="#93C5FD" stroke-width="1.5"/>
+  <circle cx="19" cy="67" r="8" fill="#1D4ED8" stroke="#93C5FD" stroke-width="1.5"/>
+  <circle cx="19" cy="33" r="8" fill="#1D4ED8" stroke="#93C5FD" stroke-width="1.5"/>
+  <!-- Connecting lines -->
+  <line x1="50" y1="40" x2="50" y2="23" stroke="#60A5FA" stroke-width="1.5"/>
+  <line x1="50" y1="40" x2="71" y2="38" stroke="#60A5FA" stroke-width="1.5" transform="rotate(0 50 40)"/>
+  <line x1="58" y1="55" x2="73" y2="61" stroke="#60A5FA" stroke-width="1.5"/>
+  <line x1="50" y1="60" x2="50" y2="77" stroke="#60A5FA" stroke-width="1.5"/>
+  <line x1="42" y1="55" x2="27" y2="61" stroke="#60A5FA" stroke-width="1.5"/>
+  <line x1="42" y1="45" x2="27" y2="38" stroke="#60A5FA" stroke-width="1.5"/>
+</svg>
