@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Domain cube top face -->
+  <polygon points="50,10 80,28 50,46 20,28" fill="#4338CA" stroke="#818CF8" stroke-width="2"/>
+  <!-- Domain cube left face -->
+  <polygon points="20,28 50,46 50,82 20,64" fill="#3730A3" stroke="#818CF8" stroke-width="2"/>
+  <!-- Domain cube right face -->
+  <polygon points="80,28 50,46 50,82 80,64" fill="#4F46E5" stroke="#818CF8" stroke-width="2"/>
+  <!-- "D" letter on top -->
+  <text x="50" y="34" text-anchor="middle" font-family="sans-serif" font-weight="bold"
+    font-size="16" fill="#E0E7FF">D</text>
+</svg>

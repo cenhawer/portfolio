@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="10" fill="#5C2D91" />
+  <text x="50" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle" alignment-baseline="middle">ASP</text>
+  <path d="M 20 75 Q 50 95 80 75" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+</svg>
